@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato/lato.bold-webfont.eot');
+    src: url('../fonts/lato/lato.bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato/lato.bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato.bold-webfont.woff') format('woff'),
+         url('../fonts/lato/lato.bold-webfont.ttf') format('truetype'),
+         url('../fonts/lato/lato.bold-webfont.svg#latobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato/lato.light-webfont.eot');
+    src: url('../fonts/lato/lato.light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato/lato.light-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato.light-webfont.woff') format('woff'),
+         url('../fonts/lato/lato.light-webfont.ttf') format('truetype'),
+         url('../fonts/lato/lato.light-webfont.svg#latolight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../img/icons/fonts/icomoon.eot?vtkntr');
+    src:  url('../img/icons/fonts/icomoon.eot?vtkntr#iefix') format('embedded-opentype'),
+      url('../img/icons/fonts/icomoon.ttf?vtkntr') format('truetype'),
+      url('../img/icons/fonts/icomoon.woff?vtkntr') format('woff'),
+      url('../img/icons/fonts/icomoon.svg?vtkntr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-google-plus:before {
+    content: "\ea8b";
+  }
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+
+  .about-content {
+      padding: 100px; 
+  }
+  
+  .about__title {
+      font-family: 'latobold';
+      font-weight: 700;
+      font-size: 34px;
+      letter-spacing: 5px;
+      color: #3c3c3c;
+      text-transform: uppercase;
+      text-align: center;
+      position: relative;
+  }
+
+  .about__title::after {
+      content: "";
+      background: #dddbdb;
+      height: 2px;
+      width: 45px;
+      position: absolute;
+      top: 45px;
+      left: 46%;
+  }
+
+  .about__description {
+      font-family: 'latolight';
+      font-weight: 300;
+      font-size: 16px;
+      color: #3c3c3c;
+      text-align: center;
+      margin-top: 60px;
+  }
+
+  .team-member-face {
+    position: relative;
+    width: fit-content;
+  }
+
+  .team-member-social {
+    display: none;
+    height: 271px;
+    width: 100%;
+    background: #00aed9;
+    position: absolute;
+    top: 0;
+  }
+
+  .team-member__link {
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 6px 9px;
+    margin: 2px;
+    background: #5ecbe7;
+  }
+
+  .team-member__link:hover {
+    color: black;
+    transition-duration: 0.7s;
+  }
+  
+  .team-member-face:hover .team-member-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-member__name {
+    font-family: 'latobold';
+    font-weight: 700;
+    font-size: 18px;
+    color: #282528;
+    margin: 0;
+    text-transform: capitalize;
+  }
+
+  .team-member__position {
+    font-family: 'latolight';
+    font-weight: 300;
+    font-size: 14px;
+    color: #646464;
+    margin: 0;
+    text-transform: capitalize;
+  }
